@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Parent theme tokens */
+    --parent-bg: #FAFAF7;
+    --parent-primary: #7C9E87;
+    --parent-accent: #C4714F;
+    --parent-text: #2C2C2C;
+    --parent-text-muted: #6B7280;
+    --parent-card: #FFFFFF;
+    --parent-border: #E8E5E0;
+    
+    /* Risk colors */
+    --risk-low: #7C9E87;
+    --risk-moderate: #D4A853;
+    --risk-high: #C4714F;
+
+    /* Clinician theme tokens */
+    --clinic-bg: #FFFFFF;
+    --clinic-primary: #4F46E5;
+    --clinic-text: #475569;
+    --clinic-card: #F8FAFC;
+    --clinic-border: #E2E8F0;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base custom input focus outlines matching standard colors */
+.parent-input:focus {
+  outline: none;
+  border-color: var(--parent-primary);
+  box-shadow: 0 0 0 2px rgba(124, 158, 135, 0.2);
+}
+
+.clinic-input:focus {
+  outline: none;
+  border-color: var(--clinic-primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}

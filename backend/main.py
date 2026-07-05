@@ -16,6 +16,7 @@ from slowapi.middleware import SlowAPIMiddleware
 from slowapi.util import get_remote_address
 
 from api.auth.router import router as auth_router
+from api.children.router import router as children_router
 from api.clinician.router import router as clinician_router
 from api.reports.router import router as reports_router
 from api.videos.router import router as videos_router
@@ -127,6 +128,7 @@ async def global_exception_handler(request: Request, exc: Exception) -> JSONResp
 
 # ── Routers ───────────────────────────────────────────────────────────────────
 app.include_router(auth_router)
+app.include_router(children_router)
 app.include_router(videos_router)
 app.include_router(reports_router)
 app.include_router(clinician_router)
