@@ -1,16 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { motion } from "framer-motion";
 import {
   Inbox,
   Users,
   CheckCircle,
-  Clock,
   ArrowRight,
   AlertCircle,
   Loader2,
-  TrendingUp,
 } from "lucide-react";
 import { ClinicianLayout } from "../../components/shared/Layout/ClinicianLayout";
 import api from "../../lib/axios";

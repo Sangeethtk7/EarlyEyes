@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
@@ -6,17 +6,14 @@ import {
   ArrowLeft,
   AlertTriangle,
   FileText,
-  User,
   Calendar,
   Clock,
-  CheckCircle,
-  X,
   Loader2,
 } from "lucide-react";
 import { ClinicianLayout } from "../../components/shared/Layout/ClinicianLayout";
 import api from "../../lib/axios";
 import { useToast } from "../../hooks/useToast";
-import type { Report, RiskLevel } from "../../types";
+import type { Report } from "../../types";
 
 function calculateAge(dobStr?: string) {
   if (!dobStr) return "—";
@@ -81,7 +78,7 @@ export default function ClinicianReview() {
   const analysis = report?.analysis;
 
   // Initialize fields once report loads
-  React.useEffect(() => {
+  useEffect(() => {
     if (report) {
       setClinicianNotes(report.clinician_notes || "");
       if (report.clinician_risk_override) {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
@@ -10,7 +10,6 @@ import {
   CheckCircle2,
   AlertTriangle,
   Loader2,
-  User,
 } from "lucide-react";
 import { ParentLayout } from "../../components/shared/Layout/ParentLayout";
 import api from "../../lib/axios";
