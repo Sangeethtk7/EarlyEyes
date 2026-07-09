@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">EarlyEyes</string>
+    <string name="app_tagline">Early detection. Better outcomes.</string>
+
+    <!-- Auth -->
+    <string name="label_email">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="label_full_name">Full name</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_sign_up">Create account</string>
+    <string name="btn_back_to_login">Back to sign in</string>
+    <string name="role_parent">I\'m a Parent</string>
+    <string name="role_clinician">I\'m a Clinician</string>
+    <string name="link_create_account">Don\'t have an account? Create one</string>
+    <string name="signup_title">Create Parent Account</string>
+    <string name="disclaimer_checkbox">I understand EarlyEyes is a screening tool, not a diagnosis</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="label_recent_videos">Recent videos</string>
+    <string name="label_no_videos">No videos yet</string>
+    <string name="label_no_videos_sub">Upload your first video to get started</string>
+    <string name="btn_upload_video">Upload new video</string>
+    <string name="btn_view_report">View report</string>
+    <string name="label_status_uploaded">Uploaded</string>
+    <string name="label_status_analysing">Analysing…</string>
+    <string name="label_status_ready">Ready</string>
+    <string name="label_status_failed">Failed</string>
+
+    <!-- Upload -->
+    <string name="upload_title">Upload Video</string>
+    <string name="upload_step_child">Select Child</string>
+    <string name="upload_step_tips">Recording Tips</string>
+    <string name="upload_step_upload">Upload</string>
+    <string name="upload_step_done">Done</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_add_child">Add child</string>
+    <string name="tip_lighting_title">Good lighting</string>
+    <string name="tip_lighting_body">Record in a well-lit room. Natural light works best. Avoid harsh shadows on the face.</string>
+    <string name="tip_distance_title">Camera distance</string>
+    <string name="tip_distance_body">Position camera 1–2 metres away. The child\'s full upper body should be visible.</string>
+    <string name="tip_duration_title">Recording duration</string>
+    <string name="tip_duration_body">Aim for 2–5 minutes of natural play. Longer clips give more accurate results.</string>
+    <string name="tip_face_title">Face visibility</string>
+    <string name="tip_face_body">Keep the child\'s face visible throughout. Avoid hats or items that obscure eyes.</string>
+    <string name="btn_select_video">Select video from gallery</string>
+    <string name="label_uploading">Uploading…</string>
+    <string name="label_upload_success">Video uploaded successfully</string>
+    <string name="label_upload_success_sub">Our screening system will process your video. You\'ll be able to view the report once analysis is complete.</string>
+    <string name="btn_go_to_dashboard">Go to dashboard</string>
+
+    <!-- Report -->
+    <string name="report_title">Screening Report</string>
+    <string name="report_section_scores">Observation Scores</string>
+    <string name="score_gaze">Gaze</string>
+    <string name="score_movement">Movement</string>
+    <string name="score_expressions">Expressions</string>
+    <string name="report_section_summary">What this means</string>
+    <string name="report_section_next_steps">Recommended next steps</string>
+    <string name="report_section_clinician_notes">Clinician notes</string>
+    <string name="risk_low">Low Concern</string>
+    <string name="risk_moderate">Worth Discussing</string>
+    <string name="risk_high">We Recommend Follow-up</string>
+    <string name="legal_disclaimer">EarlyEyes is a screening tool, not a diagnostic instrument. Results should always be interpreted by a qualified healthcare professional and do not constitute a medical diagnosis.</string>
+
+    <!-- Clinician -->
+    <string name="clinician_dashboard_title">Review Queue</string>
+    <string name="label_pending">Pending</string>
+    <string name="label_this_week">This week</string>
+    <string name="label_total">Total patients</string>
+    <string name="btn_review">Review</string>
+    <string name="review_title">Clinical Review</string>
+    <string name="review_section_findings">AI Findings</string>
+    <string name="review_section_notes">Your clinical notes</string>
+    <string name="review_section_risk">Risk assessment</string>
+    <string name="review_notes_hint">Add your clinical observations here…</string>
+    <string name="btn_send_to_parent">Send report to parent</string>
+    <string name="dialog_send_title">Send this report?</string>
+    <string name="dialog_send_body">The parent will receive access to the completed report. This action cannot be undone.</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Generic -->
+    <string name="btn_retry">Retry</string>
+    <string name="label_loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+</resources>
