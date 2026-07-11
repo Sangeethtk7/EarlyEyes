@@ -161,8 +161,8 @@ class ExpressionAnalyzer:
             social_smile_ratio   * 50 +
             emotional_range_score* 30 +
             (1 - flat_affect_ratio) * 20,
-            0.0, 1.0
-        ) * 100)
+            0.0, 100.0
+        ))
 
         # ── Interpretation ─────────────────────────────────────────────
         if expression_score >= 70:
