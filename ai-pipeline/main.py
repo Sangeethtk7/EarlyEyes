@@ -10,9 +10,9 @@ from datetime import datetime, timezone
 
 from utils.logger import get_logger
 from preprocess.video_loader import VideoLoader
-from gaze.gaze_analyzer import GazeAnalyzer
-from pose.pose_analyzer import PoseAnalyzer
-from expression.expression_analyzer import ExpressionAnalyzer
+from gaze.gaze_analyser import GazeAnalyzer
+from pose.pose_analyser import PoseAnalyzer
+from expression.expression_analyser import ExpressionAnalyzer
 from fusion.feature_engineer import FeatureEngineer
 from fusion.risk_classifier import RiskClassifier
 
