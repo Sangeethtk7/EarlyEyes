@@ -189,8 +189,8 @@ class GazeAnalyzer:
         # Score: weighted combination
         gaze_score = float(np.clip(
             ec_pct * 55 + social_gaze_ratio * 30 + eyes_open_rate * 15,
-            0, 1
-        ) * 100)
+            0.0, 100.0
+        ))
 
         # ── Interpretation ────────────────────────────────────────────
         if gaze_score >= 70:
